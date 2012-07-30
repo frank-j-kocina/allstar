@@ -79,10 +79,6 @@ a:visited {
   border-radius: 5px;
 }
 
-.hide {
-  display: none;
-}
-
 #sidebar {
   background: #eeeeee;
   float: right;
