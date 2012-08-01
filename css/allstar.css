@@ -47,6 +47,8 @@ a:visited {
 
 #menu ul {
   list-style: none;
+  left: -38px;
+  position: relative;
 }
 
 #menu li {
