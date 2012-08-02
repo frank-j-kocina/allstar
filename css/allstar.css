@@ -89,6 +89,11 @@ a:visited {
   margin-bottom: 10px;
 }
 
+#fadeshow {
+  width: 480px;
+  height: 480px;
+}
+
 #sidebar {
   float: right;
   width: 285px;
