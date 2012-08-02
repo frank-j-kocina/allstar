@@ -16,8 +16,9 @@ function activateTabAndShowContent(event) {
   var tabId = '#' + id + '-tab';
   var contentId = '#' + id + '-content';
 
-  $('.tab').addClass('inactive-tab')
+  $('.tab').removeClass('active-tab')
   $(tabId).removeClass('inactive-tab');
+  $('.tab').addClass('inactive-tab')
   $(tabId).addClass('active-tab');
 
   $('.content').hide();
