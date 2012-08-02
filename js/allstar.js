@@ -46,6 +46,6 @@ function runFadeshow() {
     fade: 1
   }, [
     { src: 'images/gallery/fullsize/greyAllstar.jpg' }, // TODO - set up images
-    { src: 'images/gallery/fullsize/greyGlass.jpg'   }
+    { src: 'images/gallery/fullsize/greyGlass.jpg'   }  // TODO - think about adding ken burns effect - http://tobia.github.com/CrossSlide/
   ]);
 }
