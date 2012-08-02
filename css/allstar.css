@@ -90,6 +90,9 @@ a:visited {
 }
 
 #fadeshow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 480px;
   height: 480px;
 }
