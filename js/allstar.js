@@ -1,5 +1,6 @@
 $(document).ready(function() {
   runGoogleAnalytics();
+  $('#scripts-allowed').css('display', 'inline');
   activateTabAndShowContent('home');
   runFadeshow();
   $("a[rel^='prettyPhoto']").prettyPhoto({social_tools: false, overlay_gallery: false, slideshow: 3000});
