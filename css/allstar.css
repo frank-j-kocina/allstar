@@ -10,10 +10,6 @@ body {
   padding-top: 50px;
 }
 
-p {
-  padding: 0 20px 0 20px;
-}
-
 a:link {
   text-decoration: none;
 }
@@ -71,6 +67,7 @@ a:visited {
   float: left;
   text-align: center;
   font-size: 24px;
+  color: #0000ff;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-color: #0000ff;
@@ -100,14 +97,27 @@ a:visited {
   margin-bottom: 10px;
 }
 
+#content > div > p {
+  padding: 20px 20px 20px 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.rounded-corners-box-shadow {
+  box-shadow: 1px 2px 8px #000000;
+  border-top: 1px solid;
+  border-color: #cccccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
 #fadeshow {
   display: block;
   margin-left: 20px;
   margin-right: 20px;
   width: 660px;
   height: 371px; /* 16x9 meh - decide on good dimensions based on pictures provided*/
-  border-radius: 5px;
-  box-shadow: 1px 2px 8px #000000;
 }
 
 #fadeshow img {
@@ -124,14 +134,25 @@ a:visited {
   margin-right: 10px;
 }
 
+#content p {
+  padding: 0 20px 0 20px;
+}
+
 .ad-box {
   width: 265px;
   height: 265px;
-  margin: 10px auto 0 auto;
-  border-color: #000000;
-  border-radius: 5px;
-  overflow: hidden;
-  box-shadow: 1px 2px 8px #000000;
+  margin: 10px auto 20px auto;
+  cursor: pointer;
+}
+
+.ad-box p {
+  text-align: center;
+}
+
+.ad-box img {
+  margin-left: 6px; /* TODO - auto does not work - and this will only work for the one image size. */
+  margin-right: 6px;
+  border: none;
 }
 
 #footer {
@@ -145,4 +166,8 @@ a:visited {
   border: 1px solid;
   border-color: #000000;
   border-radius: 5px;
+}
+
+#footer p {
+  padding: 0 20px 0 20px;
 }

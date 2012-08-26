@@ -9,6 +9,9 @@ $(document).ready(function() {
   $('#services-tab').on('click', {id: 'services'}, activateTabAndShowContent);
   $('#photos-tab').on('click', {id: 'photos'}, activateTabAndShowContent);
   $('#contact-tab').on('click', {id: 'contact'}, activateTabAndShowContent);
+
+  $('.ad-box').children().on('click', function(){$(this).parent('div').click();}); // TODO - cleanup / function
+  $('.ad-box').on('click', divLink);
 });
 
 function runGoogleAnalytics() {
@@ -27,7 +30,7 @@ function activateTabAndShowContent(event) {
 
   if(event.data)
     if(event.data.id)
-      id = event.data.id
+      id = event.data.id;
 
   var tabId = '#' + id + '-tab';
   var contentId = '#' + id + '-content';
@@ -49,4 +52,10 @@ function runFadeshow() {
     { src: 'images/gallery/fullsize/greyAllstar.jpg' }, // TODO - set up images
     { src: 'images/gallery/fullsize/greyGlass.jpg'   }  // TODO - think about adding ken burns effect - http://tobia.github.com/CrossSlide/
   ]);
+}
+
+function divLink(event) {
+  if($(event.target))
+    if($(event.target).attr('href'))
+      window.open($(event.target).attr('href'));
 }
