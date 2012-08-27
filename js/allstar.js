@@ -11,7 +11,9 @@ $(document).ready(function() {
   $('#contact-tab').on('click', {id: 'contact'}, activateTabAndShowContent);
 
   $('.ad-box').children().on('click', function(){$(this).parent('div').click();}); // TODO - cleanup / function
-  $('.ad-box').on('click', divLink);
+  $('.ad-box').on('click', makeLink);
+  $('#facebook-icon').on('click', makeLink);
+  $('#twitter-icon').on('click', makeLink);
 });
 
 function runGoogleAnalytics() {
@@ -54,7 +56,7 @@ function runFadeshow() {
   ]);
 }
 
-function divLink(event) {
+function makeLink(event) {
   if($(event.target))
     if($(event.target).attr('href'))
       window.open($(event.target).attr('href'));

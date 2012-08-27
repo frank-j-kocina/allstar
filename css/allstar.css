@@ -82,13 +82,13 @@ a:visited {
   padding: 4px 40px 10px 40px;
 }
 
-.facebook-icon {
+#facebook-icon {
   width: 48px;
   height: 48px;
   margin-left: 42px;
 }
 
-.twitter-icon {
+#twitter-icon {
   width: 48px;
   height: 48px;
   margin-left: 7px;
