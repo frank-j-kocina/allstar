@@ -70,7 +70,8 @@ a:visited {
   float: left;
 }
 
-.active-tab, .inactive-tab:hover {
+.active-tab,
+.inactive-tab:hover {
   color: #0000ff;
   margin: -3px 10px 5px 0;
   padding: 4px 40px 13px 40px;
@@ -83,15 +84,19 @@ a:visited {
 }
 
 #facebook-icon {
+  cursor: pointer;
   width: 48px;
   height: 48px;
-  margin-left: 42px;
+  float: right;
+  margin-right: 18px;
 }
 
 #twitter-icon {
+  cursor: pointer;
   width: 48px;
   height: 48px;
-  margin-left: 7px;
+  float: right;
+  margin-right: 7px;
 }
 
 #content {
@@ -100,7 +105,15 @@ a:visited {
   margin: 0 -15px 10px 0;
 }
 
-#content > div > p, #content > div > div {
+#content h3 {
+  margin: 0 0 10px 0;
+}
+
+#content p {
+  margin: 0 0 0 0;
+}
+
+#content > div > div {
   padding: 20px 20px 20px 20px;
   margin: 10px 20px 20px 20px;
 }
@@ -135,10 +148,6 @@ a:visited {
   margin-right: 10px;
 }
 
-#content p {
-  padding: 0 20px 0 20px;
-}
-
 .ad-box {
   width: 265px;
   height: 265px;
@@ -154,6 +163,13 @@ a:visited {
   margin-left: 6px; /* TODO - auto does not work - and this will only work for the one image size. */
   margin-right: 6px;
   border: none;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 10px;
 }
 
 #footer {
