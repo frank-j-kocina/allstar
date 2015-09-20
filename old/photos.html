@@ -1,159 +1,111 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--
-
-Design by Free CSS Templates
-http://www.freecsstemplates.org
-Released for free under a Creative Commons Attribution 2.5 License
-
-Title      : Emporium
-Version    : 1.0
-Released   : 20090222
-Description: A two-column, fixed-width and lightweight template ideal for 1024x768 resolutions. Suitable for blogs and small websites.
-
--->
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>Allstar Glass and Mirror</title>
-	<meta name="keywords" content="allstar glass and mirror, allstarglassmn, shower doors, bath enclosures, Prior Lake, Savage, Twin Cities, metro" /> 
-	<meta name="description" content="" />
-	<link href="default.css" rel="stylesheet" type="text/css" />
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-
-	<script type="text/javascript" language="javascript">
-	var l01 = "images/gallery/greyBathEnclosure.jpg";
-	var l02 = "images/gallery/greyGlass.jpg";
-	var l03 = "images/gallery/greyCustomFrame.jpg";
-	var l04 = "images/gallery/greyMirror.jpg";
-	var l05 = "images/gallery/greyMirrorWithCustomFrame.jpg";
-	var l06 = "images/gallery/greyMirrorWithCustomFrame2.jpg";
-	var l07 = "images/gallery/greyMirrorWithCustomFrame3.jpg";
-	var l08 = "images/gallery/greyWireShelving.jpg";
-	var l09 = "images/gallery/greyWireShelving2.jpg";
-	var l10 = "images/gallery/greyMotorizedScreen.jpg";
-	var n01 = "Bath Enclosure";
-	var n02 = "Glass Shelving";
-	var n03 = "Custom Mirror Frames";
-	var n04 = "Standard Mirror";
-	var n05 = "Custom Mirror Frame";
-	var n06 = "Custom Mirror Frame";
-	var n07 = "Custom Mirror Frame";
-	var n08 = "Wire Shelving";
-	var n09 = "Wire Shelving";
-	var n10 = "Motorized Screen";
-	function changePic(pic, name/*, desc*/) {
-		var n = document.getElementById("pname");
-		n.innerHTML = name;
-		//var d = document.getElementById("pdesc");
-		//d.innerHTML = desc;
-		var p = document.getElementById("picture");
-		p.setAttribute("src", pic);
-		return false;
-	}
-	</script>
-
+    <title>Allstar Glass and Mirror</title>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta content="allstar glass and mirror, allstarglassmn, shower doors, bath enclosures, Prior Lake, Savage, Twin Cities, metro" name="keywords" />
+    <meta content="" name="description" />
+    <link href="css/lightbox.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="css/default.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" /><script type="text/javascript" src="js/prototype.js"></script><script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script><script type="text/javascript" src="js/lightbox.js"></script>
 </head>
-
 <body>
-<div id="wrapper">
-<!-- start header -->
-<div id="logo">
-</div>
+<div id="wrapper"><!-- start header -->
+<div id="logo">&nbsp;</div>
+
 <div id="header">
-	<div id="menu">
-		<ul>
-			<li><a href="index.html"><b>Homepage</b></a></li>
-			<li><a href="services.html"><b>Products and Services</b></a></li>
-			<li><a href="photos.html"><b>Photo Gallery</b></a></li>
-			<li><a href="contact.html"><b>Contact Us</b></a></li>
-		</ul>
-	</div>
+<div id="menu">
+<ul>
+    <li><a href="index.html"><b>Homepage</b></a></li>
+    <li><a href="services.html"><b>Products and Services</b></a></li>
+    <li class="current_page_item"><a href="photos.html"><b>Photo Gallery</b></a></li>
+    <li><a href="contact.html"><b>Contact Us</b></a></li>
+</ul>
 </div>
-<!-- end header -->
 </div>
+<!-- end header --></div>
 <!-- start page -->
-<div id="page">
-	<!-- start content -->
-	<div id="content">
-		<div class="post">
-			<h1 class="title">Photo Gallery</h1>
-			<div class="entry">
-				<p>
-					<table id="pic_gallery" border="2" cellspacing="1" cellpadding="2" width="580" bgcolor="#28313A">
-						<tr><td align="center">
-							<table height="500" width="500" align="center" valign="center">
-								<td>
-								<p id="pname" >select an image to view</p>
-								<img id="picture" src="images/gallery/greyAllstar.jpg" height="500" width="500" alt="" align="center" valign="middle" />
-								</td>
-							</table>
-						</td></tr>
-						<tr><td>
-<br>
-							<table id="gallery" border="2" cellspacing="1" cellpadding="2" align="center" valign="center">
-									<td><a onclick="return changePic(l01, n01);" href="images/gallery/greyBathEnclosure.jpg" title="Glass Bath Enclosure"><img src="images/gallery/greyBathEnclosure.jpg" height="50" width="50"></a></td>
-									<td><a onclick="return changePic(l02, n02);" href="images/gallery/greyGlass.jpg" title="Glass Shelving"><img src="images/gallery/greyGlass.jpg" height="50" width="50"></a></td>
-									<td><a onclick="return changePic(l03, n03);" href="images/gallery/greyCustomFrame.jpg" title="Custom Mirror Frames"><img src="images/gallery/greyCustomFrame.jpg" height="50" width="50"></a></td>
-									<td><a onclick="return changePic(l04, n04);" href="images/gallery/greyMirror.jpg" title="Standard Mirror"><img src="images/gallery/greyMirror.jpg" height="50" width="50"></a></td>
-									<td><a onclick="return changePic(l05, n05);" href="images/gallery/greyMirrorWithCustomFrame.jpg" title="Custom Mirror Frame"><img src="images/gallery/greyMirrorWithCustomFrame.jpg" height="50" width="50"></a></td>
-									<td><a onclick="return changePic(l06, n06);" href="images/gallery/greyMirrorWithCustomFrame2.jpg" title="Custom Mirror Frame"><img src="images/gallery/greyMirrorWithCustomFrame2.jpg" height="50" width="50"></a></td>
-									<td><a onclick="return changePic(l07, n07);" href="images/gallery/greyMirrorWithCustomFrame3.jpg" title="Custom Mirror Frame"><img src="images/gallery/greyMirrorWithCustomFrame3.jpg" height="50" width="50"></a></td>
-									<td><a onclick="return changePic(l08, n08);" href="images/gallery/greyWireShelving.jpg" title="Wire Shelving"><img src="images/gallery/greyWireShelving.jpg" height="50" width="50"></a></td>
-									<td><a onclick="return changePic(l09, n09);" href="images/gallery/greyWireShelving2.jpg" title="Wire Shelving"><img src="images/gallery/greyWireShelving2.jpg" height="50" width="50"></a></td>
-									<td><a onclick="return changePic(l10, n10);" href="images/gallery/greyMotorizedScreen.jpg" title="Motorized Screen"><img src="images/gallery/greyMotorizedScreen.jpg" height="50" width="50"></a></td>
-							</table>
-						</td></tr>
-					</table>
-				</p>
-			</div>
-		</div>
-	</div>
-	<!-- end content -->
-	<!-- start sidebar -->
-	<div id="sidebar">
-		<ul>
-			<li>
-				<h2>Hours of Operation</h2>
-				<ul>
-					<strong>Monday - Friday</strong><br/>
-					8:00am - 5:00pm<br/>
-					or by appointment<br/>
-					<br/>
-					<strong>Saturday</strong><br/>
-					by appointment only
-				</ul>
-			</li>
-			<li>
-				<h2>Quick Contact</h2>
-				<ul>
-					<li>email: <a href="mailto:lyle@allstarglassmn.com">lyle@allstarglassmn.com</a></li>
-					<li>phone: 612-991-0313</li>
-					<li>fax: 952-496-0924</li>
-				</ul>
-			</li>
-			<li>
-				<h2>Follow us on Twitter</h2>
-				<ul>
-					<li><a href="http://twitter.com/allstarglassmn"><img src="images/twitter.png" alt="Follow us on Twitter" width="176" height="60" /></a></li>
-				</ul>
-			</li>
-			<li>
-				<h2>Find us on Facebook</h2>
-				<ul>
-					<li><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FAllstar-Glass-and-Mirror%2F189206144446351&amp;layout=standard&amp;show_faces=true&amp;width=200&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:80px;" allowTransparency="true"></iframe></li>
-				</ul>
-			</li>
-		</ul>
-	</div>
-	<!-- end sidebar -->
-	<div style="clear: both;">&nbsp;</div>
+
+<div id="page"><!-- start content -->
+<div id="content">
+<div class="post">
+<h1 class="title">Photo Gallery</h1>
+
+<div class="entry">
+<table>
+    <tbody>
+        <tr>
+            <td><a href="images/gallery/stairs.jpg" rel="lightbox[gallery]"><img height="100" src="images/gallery/small/stairs.jpg" width="100" /></a></td>
+            <td><a href="images/gallery/shower.jpg" rel="lightbox[gallery]"><img height="100" src="images/gallery/small/shower.jpg" width="100" /></a></td>
+            <td><a href="images/gallery/bathEnclosure.jpg" rel="lightbox[gallery]"><img height="100" src="images/gallery/small/bathEnclosure.jpg" width="100" /></a></td>
+            <td><a href="images/gallery/customFrame.jpg" rel="lightbox[gallery]"><img height="100" src="images/gallery/small/customFrame.jpg" width="100" /></a></td>
+            <td><a href="images/gallery/glass.jpg" rel="lightbox[gallery]"><img height="100" src="images/gallery/small/glass.jpg" width="100" /></a></td>
+        </tr>
+        <tr>
+            <td><a href="images/gallery/mirror.jpg" rel="lightbox[gallery]"><img height="100" src="images/gallery/small/mirror.jpg" width="100" /></a></td>
+            <td><a href="images/gallery/mirrorWithCustomFrame.jpg" rel="lightbox[gallery]"><img height="100" src="images/gallery/small/mirrorWithCustomFrame.jpg" width="100" /></a></td>
+            <td><a href="images/gallery/mirrorWithCustomFrame2.jpg" rel="lightbox[gallery]"><img height="100" src="images/gallery/small/mirrorWithCustomFrame2.jpg" width="100" /></a></td>
+            <td><a href="images/gallery/wireShelving.jpg" rel="lightbox[gallery]"><img height="100" src="images/gallery/small/wireShelving.jpg" width="100" /></a></td>
+            <td><a href="images/gallery/mirrorWithCustomFrame3.jpg" rel="lightbox[gallery]"><img height="100" src="images/gallery/small/mirrorWithCustomFrame3.jpg" width="100" /></a></td>
+        </tr>
+        <tr>
+            <td><a href="images/gallery/wireShelving2.jpg" rel="lightbox[gallery]"><img height="100" src="images/gallery/small/wireShelving2.jpg" width="100" /></a></td>
+        </tr>
+    </tbody>
+</table>
 </div>
-<!-- end page -->
-<!-- start footer -->
+</div>
+</div>
+<!-- end content --><!-- start sidebar -->
+
+<div id="sidebar">
+<ul>
+    <li>
+    <h2>Hours of Operation</h2>
+
+    <ul>
+        <li><strong>Monday - Friday</strong><br />
+        8:00am - 5:00pm<br />
+        or by appointment<br />
+        <br />
+        <strong>Saturday</strong><br />
+        by appointment only</li>
+    </ul>
+    </li>
+    <li>
+    <h2>Quick Contact</h2>
+
+    <ul>
+        <li>email: <a href="mailto:lyle@allstarglassmn.com">lyle@allstarglassmn.com</a></li>
+        <li>phone: 612-991-0313</li>
+        <li>fax: 952-496-0924</li>
+    </ul>
+    </li>
+    <li><a href="http://www.bbb.org/minnesota/business-reviews/glass-plate-and-window/allstar-glass-and-mirror-in-prior-lake-mn-96253556#sealclick" title="Click for the Business Review of Allstar Glass &amp; Mirror, a Glass - Plate and Window in Prior Lake MN"><img alt="Click for the BBB Business Review of this Glass - Plate and Window in Prior Lake MN" src="http://seal-minnesota.bbb.org/seals/black-seal-160-82-allstarglassmirror-96253556.png" style="border: 0;" /></a></li>
+    <li>
+    <h2>Follow us on Twitter</h2>
+
+    <ul>
+        <li><a href="http://twitter.com/allstarglassmn"><img alt="Follow us on Twitter" height="60" src="images/twitter.png" width="176" /></a></li>
+    </ul>
+    </li>
+    <li>
+    <h2>Find us on Facebook</h2>
+
+    <ul>
+        <li><iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FAllstar-Glass-and-Mirror%2F189206144446351&amp;layout=standard&amp;show_faces=true&amp;width=200&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=100" style="border:none; overflow:hidden; width:200px; height:100px;"></iframe></li>
+    </ul>
+    </li>
+</ul>
+</div>
+<!-- end sidebar -->
+
+<div style="clear: both;">&nbsp;</div>
+</div>
+<!-- end page --><!-- start footer -->
+
 <div id="footer">
-	<p id="legal">© 2011. All Rights Reserved. Designed by <a href="http://www.linkedin.com/pub/frank-j-kocina/29/67b/611">Frank J Kocina</a> and Michelle Rock with the aid of <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+<p id="legal">&copy; 2014 Allstar Glass &amp; Mirror &bull; 6840 Bridle Path Prior Lake, MN 55372 &bull; 612-991-0313 &bull; Made with <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
 </div>
-<!-- end footer -->
-</body>
+<!-- end footer --></body>
 </html>
