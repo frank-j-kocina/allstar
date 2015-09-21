@@ -113,11 +113,7 @@ input, textarea, select {
     color: red;
 }
 
-#menu .current_page_item a {
-    
-}
-
-/* LOGO */
+/* Logo */
 
 #logo {
     width: 900px;
@@ -125,40 +121,6 @@ input, textarea, select {
     margin: 0 auto;
     background: #ffffff url(../images/AllstarHeader.png) no-repeat center;
 }
-
-#logo h1, #logo h2 {
-    float: left;
-    margin: 0;
-    padding: 50px 0 0 0;
-    line-height: normal;
-}
-
-#logo h1 { 
-    font-size:40px;
-}
-
-#logo h1 a {
-    text-decoration: none;
-    color: #28313A; 
-}
-
-#logo h1 a:hover { text-decoration: underline; }
-
-#logo h2 {
-    float: left;
-    padding: 65px 0 0 18px;
-    font-size: 18px;
-    color: #28313A; 
-}
-
-#logo p a {
-    text-decoration: none;
-    color: #28313A;
-}
-
-#logo p a:hover { text-decoration: underline; }
-
-
 
 /* Page */
 
@@ -202,46 +164,6 @@ input, textarea, select {
     color: #28313A; 
 }
 
-.post .entry {
-}
-
-.post .product {
-    font-size: 16px;
-}
-
-.post .meta {
-    padding: 15px 15px 30px 0;
-    font-size: 10px;
-}
-
-.post .meta p {
-    margin: 0;
-    padding-top: 15px;
-    line-height: normal;
-    color: #28313A; 
-}
-
-.post .meta .byline {
-    float: left;
-}
-
-.post .meta .links {
-    float: right;
-}
-
-.post .meta .more {
-    padding: 0 20px 0 18px;
-}
-
-.post .meta .comments {
-    padding-left: 22px;
-}
-
-.post .meta b {
-    display: none;
-}
-
-
 /* Sidebar */
 
 #sidebar {
@@ -271,58 +193,6 @@ input, textarea, select {
     margin-bottom: 10px;
     font-size: 20px;
     color: #28313A; 
-}
-
-/* Search */
-
-#search {
-
-}
-
-#search h2 {
-    margin-bottom: 20px;
-}
-
-#s {
-    width: 140px;
-    margin-right: 5px;
-    padding: 3px;
-    border: 1px solid #DFE1E0;
-}
-
-#x {
-    padding: 3px;
-    border: none;
-    background: #0A5688;
-    text-transform: lowercase;
-    font-size: 11px;
-    color: #FFFFFF;
-}
-
-/* Boxes */
-
-.box1 {
-    padding: 20px;
-}
-
-.box2 {
-    color: #BABABA;
-}
-
-.box2 h2 {
-    margin-bottom: 15px;
-    font-size: 16px;
-    color: #FFFFFF;
-}
-
-.box2 ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.box2 a:link, .box2 a:hover, .box2 a:active, .box2 a:visited  {
-    color: #EDEDED;
 }
 
 /* Footer */
