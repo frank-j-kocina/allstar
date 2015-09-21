@@ -3,7 +3,8 @@
     padding: 0;
     background: #28313A;
     font-size: 12px;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
     text-align: justify;
     color: #5C5C5C;
 }
@@ -60,7 +61,6 @@ img.right {
 /* Form */
 
 input, textarea, select {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     font-size: 13px;
     color: #333333;
 }
@@ -134,7 +134,6 @@ input, textarea, select {
 }
 
 #logo h1 { 
-    font-family: Georgia, "Times New Roman", Times, serif;
     font-size:40px;
 }
 
@@ -148,7 +147,7 @@ input, textarea, select {
 #logo h2 {
     float: left;
     padding: 65px 0 0 18px;
-    font: 18px Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
     color: #28313A; 
 }
 
@@ -175,7 +174,6 @@ input, textarea, select {
 #content {
     float: left;
     width: 620px;
-    border-right: 1px dashed #DFE1E0;
 }
 
 /* Post */
