@@ -331,32 +331,16 @@ input, textarea, select {
 }
 
 /* Footer */
-#footer-wrap {
-}
 
 #footer {
     width: 880px;
+    height: 30px;
     margin: 0 auto;
     background: #E5E5E5;
     border: 10px #FFFFFF solid;
 }
 
-html>body #footer {
-    height: auto;
-}
-
-#footer p {
-    font-size: 12px;
-}
-
 #legal {
-    clear: both;
-    padding-top: 17px;
     text-align: center;
     color: #595959;
-}
-
-#legal a {
-    font-weight: normal;
-    color: #1B75A9;
 }
