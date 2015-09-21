@@ -258,10 +258,7 @@ input, textarea, select {
 }
 
 #sidebar li {
-    margin-bottom: 40px;
-}
-
-#sidebar li ul {
+    margin-bottom: 20px;
 }
 
 #sidebar li li {
